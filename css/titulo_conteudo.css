@@ -1,0 +1,20 @@
+
+
+
+
+.titulo {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px; 
+  color: #0066CC;
+}
+
+.conteudo{
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+

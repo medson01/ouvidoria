@@ -1,0 +1,1218 @@
+
+/* - contentpanels.css - */
+@media all {
+/* http://www.ipasealsaude.al.gov.br/portal_css/contentpanels.css?original=1 */
+/* */
+#region-content .viewlet .portlet{
+font-size: 100%
+}
+.documentContent .portletFooter,
+.documentContent .portletItem {
+padding: 0.3em;
+}
+.documentContent .portletItemDetails {
+color: #76797c;
+font-size: 90%;
+margin-top: -0.5em;
+}
+.cpPanels .cpPanel {
+margin: 1em 0 0 0;
+}
+.documentContent .viewlet .portlet{
+margin: 0 0 0 0;
+}
+.cpPanelsHeading {
+background-color: lavender;
+white-space: nowrap;
+text-align: right;
+}
+.cpPanelsHeading .cpPanelsHeadingInput,
+.cpPanelHeading .cpPanelsHeadingInput {
+float: left;
+}
+.cpPanelHeading {
+background-color: lavender;
+}
+.cpPanelHeading td {
+text-align: right
+}
+.cpViewletItem a {
+white-space: nowrap;
+}
+.cpViewletItem span {
+white-space:nowrap;
+background-color: lightgreen;
+}
+/* */
+.cpEditFormInputValues {
+float: left;
+}
+.cpEditFormSubmitButtons {
+float: right;
+}
+.cpRelatedContent li.cpRelatedItem{
+display: inline;
+}
+.cpPages {
+float:right;
+white-space: nowrap;
+margin-top: 0;
+}
+.cpPages li {
+display: inline;
+}
+.cpPages li a {
+font-size: 90%;
+background-color: transparent;
+border: 1px solid #74ae0b;
+color: #578308;
+margin-right: 0.5em;
+padding: 0em 1em;
+text-decoration: none;
+text-transform: none;
+z-index: 1;
+}
+.cpPages li.selected a {
+background-color: #cde2a7;
+color: #578308;
+}
+.cpPages li a:hover {
+background-color: #cde2a7;
+color: #578308;
+}
+/* */
+/* */
+/* */
+.notitlePortletWrapper dt.portletHeader {
+display: none;
+}
+.notitlePortletWrapper .portlet,
+.notitlePortletWrapper dd.portletFooter,
+.notitlePortletWrapper dd.portletItem{
+border: none;
+}
+/* */
+.zopezenPortletWrapper dt.portletHeader {
+background-color: White;
+font-style: normal;
+border: none;
+text-transform: capitalize;
+border-bottom: 2px solid #efefef;
+}
+.boxPortletWrapper dl.portlet dd.portletFooter,
+.boxPortletWrapper dl.portlet dd.portletItem,
+.boxPortletWrapper dl.portlet,
+.zopezenPortletWrapper dl.portlet,
+.zopezenPortletWrapper dl.portlet dd.portletFooter,
+.zopezenPortletWrapper dl.portlet dd.portletItem {
+border: none;
+}
+/* */
+.alertPortletWrapper dl.portlet dt.portletHeader{
+background: #ffa500;
+font-weight: bold;
+border-color: #ffa500;
+text-transform: uppercase;
+/* background-image: url(http://www.ipasealsaude.al.gov.br/info_icon.gif); */
+background-repeat: no-repeat;
+background-position: 5px 50%;
+padding-left: 2.5em;
+}
+.alertPortletWrapper dl.portlet dd.portletFooter,
+.alertPortletWrapper dl.portlet dd.portletItem {
+background-color: #ffce7b;
+}
+/* */
+.dottedPortletWrapper dl.portlet dt.portletHeader{
+background: White;
+font-weight: bold;
+border: none;
+padding-left: 0em;
+text-transform: capitalize;
+color: Black;
+border-bottom: 2px dotted #efefef;
+}
+.dottedPortletWrapper dl.portlet dd.portletFooter,
+.dottedPortletWrapper dl.portlet dd.portletItem {
+border: 2px dotted #efefef;
+border-top:none;
+border-bottom: none;
+}
+.dottedPortletWrapper dl.portlet{
+border-bottom: 2px dotted #efefef;
+}
+.imageNewsImage {
+float: left;
+margin: 0.5em;
+}
+.imageNewsTitle {
+font-weight:bold;
+}
+.viewlet-rss-link{
+padding-right: 2px;
+float: right;
+display: block;
+}
+/* */
+
+}
+
+
+/* - contentpanelsCustom.css - */
+@media all {
+/* http://www.ipasealsaude.al.gov.br/portal_css/contentpanelsCustom.css?original=1 */
+/* */
+/* */
+
+}
+
+
+/* - tabber.css - */
+@media all {
+/* http://www.ipasealsaude.al.gov.br/portal_css/tabber.css?original=1 */
+/* */  .tabberlive .tabbertabhide {   display:none;  }
+.tabber {  }  .tabberlive {      margin-bottom: 1em;  }
+ul.tabbernav  {   margin:0;   padding: 1px 0;   border-bottom: 1px solid #74ae0b;   text-align: center;  }
+ul.tabbernav li  {   list-style: none;   margin: 0;   display: inline;  }
+ul.tabbernav li a  {   padding: 3px 0.5em;   margin-left: 0;   border: 1px solid #74ae0b;   border-style: solid none solid dotted;   text-decoration:
+none;   color: #5d8811;   position: relative;   top: 1em;   background-color: White;  }
+ul.tabbernav li a:hover  {   background-color: #cde2a7;   border-color: #74ae0b;  }
+ul.tabbernav li a:active {   color: #5d8811;  }  ul.tabbernav li.tabberactive a  {   background-color: #cde2a7;   color: #5d8811;  }
+ul.tabbernav li.tabberactive a:hover  {   background-color: #cde2a7;  }
+.tabberlive .tabbertab {   padding: 1em 0.1em 0.1em 0.1em;   border:1px solid #74ae0b;   border-top:0;
+/* */
+/* */
+/* */
+/* */  }
+/* */
+.tabberlive .tabbertab h2 {   display:none;  }
+/* */
+#undefinednav1 { border-left: 1px solid #74ae0b;;}
+#undefinednav2 { border-right: 1px solid #74ae0b;;}
+* html .tabbertab {height: 1%} /* */
+.summaryColumn {      border-right: 1px solid #8cacbb;  }
+.visualOnlyPrint {display: none;}
+
+}
+
+
+/* - ++resource++fabrica.tema.stylesheets/main.css - */
+@media screen {
+/* http://www.ipasealsaude.al.gov.br/portal_css/++resource++fabrica.tema.stylesheets/main.css?original=1 */
+/* */
+
+}
+
+
+/* - fabricatema.css - */
+@media screen {
+/* http://www.ipasealsaude.al.gov.br/portal_css/fabricatema.css?original=1 */
+/* */
+body{
+background:url(../imagem/bg_body.gif) repeat-x #3C8AAD;
+}
+a{
+color:#777;
+}
+body.popup{
+background:#fff;
+}
+.documentContent {
+padding:0 0 24px 0 !important;
+}
+.documentEditable .documentContent{
+border:none;
+}
+.contentActions{
+border-bottom:1px solid #74AE0B;
+margin-bottom:10px;
+}
+#content-views{
+padding-left:0;
+}
+#content-views li a{
+margin-right:0;
+}
+.section-front-page h1.documentFirstHeading{
+display:none;
+}
+#visual-portal-wrapper{
+width:1200px;
+margin:0 auto;
+background:#fff;
+border-left:5px solid #d5d5d5;
+border-right:5px solid #d5d5d5;
+border-bottom:5px solid #d5d5d5;
+}
+#portal-header{
+/* background: url(http://www.ipasealsaude.al.gov.br/bg_header.jpg) repeat-y; */ 
+}
+#portal-logo{
+padding: 23px 23px 18px;
+background-repeat:no-repeat;
+background-position: right center;
+background-color: brown
+
+}
+#tema-portal{
+font-size:36px;
+font-family:arial;
+color:#fff;
+text-decoration:none;
+text-transform:uppercase;
+}
+#descricao-portal{
+font-family:arial;
+font-size:14px;
+display:block;
+text-transform: none;
+color:#fff;
+}
+#portal-breadcrumbs{
+border:none;
+padding:0;
+margin-top:10px;
+margin-bottom:15px;
+font-family:arial,verdana;
+float:left;
+width:520px;
+}
+#portal-breadcrumbs a{
+color:#6E7DC2;
+text-decoration: underline;
+font-family:arial,verdana;
+}
+#breadcrumbs-you-are-here{
+text-transform: lowercase;
+}
+#portal-acessibilidade{
+width:40px;
+float:right;
+margin-top:10px;
+}
+#document-action-aumentar_fonte{
+float:left;
+}
+#portal-column-one{width:199px;border-right:1px solid #d5d5d5;}
+#portal-column-one .visualPadding {
+padding:15px 0 1em 0;
+}
+#portal-column-content{
+padding:1em 15px 0;
+}
+#portal-column-two{width:199px;border-left:1px solid #d5d5d5;}
+#portal-column-two .visualPadding {
+padding:15px 0 1em 0;
+}
+#portal-siteactions{
+float:none;
+margin:0;
+padding:8px 2em 14px 20px;
+/* background:url(http://www.ipasealsaude.al.gov.br/bg_siteactions.jpg) repeat-x; */ 
+border-top:1px solid #d5d5d5;
+}
+#portal-siteactions li{
+border-right:1px solid #123B51;
+padding:0 5px 0 1px;
+_padding-left:8px
+}
+#portal-siteactions li a,
+#portal-siteactions li a:hover{
+border:none;
+background:none;
+color:#123B51;
+font-size:10px;
+font-weight:bold;
+font-family:arial,verdana;
+text-transform: lowercase;
+margin:0;
+font-family:verdana;
+}
+#portal-tempo{
+color:#4F4B4B;
+font-family: arial,verdana;
+font-size:11px;
+float:right;
+margin-top:-28px;
+padding-right: 10px;
+}
+#portal-tempo img{margin-top:-1px}
+.dateDescription{
+color:#0753A7;
+display:block;
+font-size:90%;
+font-style:italic;
+margin-bottom:10px;
+font-weight: bold;
+}
+.documentFirstHeading{
+border:none;
+margin-bottom:10px;
+}
+.newsImage{
+border:none;
+}
+.newsImageContainer {
+background:#efefef;
+border: 1px solid #969494;
+width:200px;
+}
+.newsContainer {
+background:#efefef;
+border: 1px solid #969494;
+float:right;
+margin-left:10px;
+}
+.newsImageContainer .discreet{padding:5px}
+#parent-fieldname-text{text-align:justify}
+.documentDescription{
+margin-bottom:15px;
+color:#666;
+font-weight: normal;
+font-size:90%;
+}
+.documentActions{
+border:none;
+}
+.documentActions ul{margin:0}
+.documentActions .texto{display:none}
+#document-action-sendto .texto,
+#document-action-print .texto{
+display:inline;
+}
+#portal-footer{
+/* background:url(http://www.ipasealsaude.al.gov.br/bg_footer.jpg) repeat-x #fff; */
+margin:0;
+border-top:1px solid #d5d5d5;
+border-bottom:0;
+background-color: #d5d5d5;
+text-decoration-color: ;
+}
+#portal-footer #governo{
+text-align: right;
+width:130px;
+float:left;
+padding-top:39px;
+padding-right:3px;
+line-height:12px;
+margin-left:30px;
+_margin-left:15px;
+}
+#portal-footer #institucional{
+float:left;
+padding:0 15px;
+width:600px;
+}
+/* #portal-footer #email{background:url(http://www.ipasealsaude.al.gov.br/email.gif) no-repeat;} */
+#portal-footer #itec{
+float:right;
+margin-right:30px;
+_margin-right:15px;
+text-align: right;
+/* background: url(http://www.ipasealsaude.al.gov.br/logo_itec.jpg) no-repeat bottom right; */ 
+padding-bottom:50px;
+}
+#portal-footer a,
+#portal-footer a:visited{
+color:#1E4A76;
+font-weight: bold;
+}
+.viewlet{
+margin-bottom:10px !important;
+}
+.viewlet a{
+border:none !important;
+text-decoration: none;
+}
+.viewlet a[href^="http:"]{
+background:none !important;
+padding:0 !important;
+}
+.viewlet .portlet,
+.viewlet .portletHeader{
+background:none !important;
+width:auto;
+}
+.viewlet .portletHeader{
+padding-left:0 !important;
+padding-bottom: 5px !important;
+margin-bottom:5px;
+}
+.viewlet .portletHeader a,
+.viewlet_destaque .title{
+font-family:arial !important;
+font-size:15px !important;
+font-weight:bold;
+text-transform: uppercase;
+color: #666 !important;
+text-decoration: none !important;
+border-bottom:1px solid #ddd !important;
+padding-bottom:3px !important;
+}
+.viewlet .portletItem{padding:0 !important}
+.viewlet dd a:visited{color: #436976;}
+table.cp_Untitled{
+width:560px;
+border-collapse: collapse;
+}
+.viewlet_destaque{padding-left:0 !important;}
+.viewlet_destaque .description{padding-top:5px;}
+.viewlet_destaque .description a{color:#666 !important;}
+.viewlet_destaque .esquerda{float:left}
+.viewlet_destaque .esquerda img{margin-right:5px;}
+.viewlet_destaque .direita{float:right}
+.viewlet_destaque .direita img{margin-left:5px;}
+.viewlet_destaque .fixado{display:block}
+.viewlet_destaque .fixado img{margin-bottom:5px}
+.viewlet_destaque .False{text-transform:none !important}
+.viewlet_destaque .upper{text-transform:uppercase !important}
+#viewlet-noticias-1 #noticia-foto{
+float:left;
+width:200px;
+margin-right:10px;
+background:#EFEFEF;
+color:#000000;
+}
+#viewlet-noticias-1 .portletHeader{display:none}
+#viewlet-noticias-1 #noticia-foto .image{
+width:200px;
+height:130px;
+background-position:top center;
+background-repeat: no-repeat;
+}
+#viewlet-noticias-1 .discreet{
+padding:5px;
+}
+#viewlet-noticias-1 #noticias-sem-foto .titulo a{
+color:#02539A;
+font-family:arial;
+font-size:130%;
+font-weight:bold;
+line-height:12px;
+}
+#viewlet-noticias-1 #noticias-sem-foto .descricao{
+color:#666666;
+font-size:95%;
+line-height: 13px;
+}
+#viewlet-noticias-1 #noticias-sem-foto .data{
+color:#6E7DC2;
+font-size:10px;
+display:block;
+margin-bottom:5px;
+}
+#viewlet-noticias-1 #destaque{margin-bottom:10px;}
+#viewlet-noticias-1 .read-too {
+font-family:trebuchet ms,arial;
+font-size:12px;
+font-weight:bold;
+margin:5px 0 0;
+text-transform:uppercase;
+color:#02539A;
+}
+#viewlet-noticias-1 ul {
+margin:0 0 0 220px;
+}
+#viewlet-noticias-1 .read_more {
+font-size:11px;
+line-height:12px;
+margin:0;
+}
+#viewlet-noticias-2{
+position:relative;
+z-index:0;
+}
+#ancora-noticias{
+z-index:1;
+}
+#viewlet-noticias-2 h2{
+border:none;
+margin-top:0;
+min-height:36px;
+}
+#viewlet-noticias-2 .image{
+float:left;
+margin-right:10px;
+width:200px;
+height:160px;
+background-repeat:no-repeat;
+background-position:center top;
+}
+#viewlet-noticias-2 .data{
+background:#F7F4F5;
+padding:5px 7px;
+font-size:10px;
+float:left;
+color:#808080;
+}
+#viewlet-noticias-2 .descricao{
+float:left;
+width:100%;
+}
+#viewlet-noticias-2 .noticia{
+margin-left:210px;
+}
+#viewlet-noticias-2 h2 a{
+font-size:16px;
+color:#327DA7 !important;
+font-weight: bold;
+}
+#viewlet-noticias-2 .more{
+float:left;
+color: #327DA7;
+}
+#viewlet-noticias-2 #controles{
+left:460px;
+position:absolute;
+top:43px;
+z-index: 2;
+}
+#viewlet-noticias-2 #controles img{cursor: pointer;}
+#viewlet-noticias-2 #noticias-recentes{
+background:#e8e9e9;
+border: 1px solid #dbdbdb;
+padding:10px 15px;
+margin-top:10px;
+}
+#viewlet-noticias-2 #noticias-recentes li{margin-bottom:3px;}
+#viewlet-noticias-2 #noticias-recentes h3{margin:0}
+#viewlet-noticias-2 b{font-size:10px}
+#viewlet-noticias-2 a{
+color:#327da7;
+font-size:11px;
+}
+#viewlet-noticias-3 a{color:#0753A7;}
+#viewlet-noticias-3 .destaque{
+border-bottom:1px solid #f1f1f1;
+margin-bottom:15px;
+}
+#viewlet-noticias-3 .destaque span{
+font-size:10px;
+color:#808080;
+margin-top:0
+}
+#viewlet-noticias-3 .destaque h2{
+border:none;
+margin-top:0;
+}
+#viewlet-noticias-3 .destaque h2 a{
+color:#02539A !important;
+font-size:100%;
+font-weight: bold;
+}
+#viewlet-noticias-3 .destaque .descricao{
+color:#555;
+font-size:11px;
+text-align:justify;
+}
+#viewlet-noticias-3 #controles{
+width:194px;
+text-align: right;
+background:#f1f1f1;
+padding:3px;
+}
+#viewlet-noticias-3 #controles .activeSlide{color:#555;}
+#viewlet-noticias-3 #controles a{
+color:#02539A;
+font-weight: bold;
+margin-left:5px;
+}
+#viewlet-noticias-3 .rotativas{
+width:200px;
+float:left;
+background:#f1f1f1;
+}
+#viewlet-noticias-3 .discreet{
+padding:6px;
+}
+#viewlet-noticias-3 .data{
+display:block;
+font-size:10px;
+color: #76797C;
+}
+#viewlet-noticias-3 .outras{
+margin-left:210px;
+margin-top:-23px;
+}
+#viewlet-noticias-3 .item{
+margin-bottom:10px;
+}
+#viewlet-noticias-3 .outras .item a{
+display:block;
+text-align: justify;
+}
+#viewlet-noticias-3 .item img{
+width:200px;
+height:130px;
+background-position:top center;
+background-repeat:no-repeat;
+background-color:#f1f1f1;
+}
+/* ****/
+.viewlet .nav{
+width:auto;
+}
+/* **********/
+li.image_related{
+float:left;
+margin-right:10px;
+}
+li.image_related .img{
+width:70px;
+height:70px;
+border:1px solid #969494;
+background-position: center;
+}
+li.related{
+clear:left
+}
+.tileItem{
+border:none;
+}
+.listingBar{
+border:none;
+padding:5px;
+}
+.photoAlbumEntry {
+background-image:none;
+padding:0;
+width: auto;
+margin-right:8px;
+width:130px;
+}
+.photoAlbumEntryWrapper{
+border:1px solid #E1E1E1;
+display:block;
+margin-bottom:7px;
+padding:6px;
+width: auto;
+height: auto;
+}
+.photoAlbumEntry img{
+background-position:center;
+}
+.LSResult{
+z-index:50;
+}
+pre{
+width:530px;
+}
+#bigPhoto{
+background: #f2f2f2;
+border: 1px solid #dddddd;
+padding:18px;
+text-align: center;
+}
+#bigPhoto a{
+display:block;
+margin-top:7px;
+}
+#galeria{
+margin-top:10px;
+position:relative;
+overflow:hidden;
+width: 510px;
+height:90px;
+float:left;
+}
+#galeria .items{
+width:20000em;
+position:absolute;
+}
+.galeriaEntry{
+float:left;
+margin-right:3px;
+}
+.galeriaEntry a{
+padding:5px;
+width:70px;
+height:70px;
+display:block;
+border: 1px solid #fff;
+}
+.galeriaEntry a:hover{
+background: #f2f2f2;
+border: 1px solid #dddddd;
+}
+.galeriaEntry img{
+background-position:center;
+}
+.galeriaNext,.galeriaPrev{
+float:left;
+margin-top:10px;
+display:block;
+cursor:pointer;
+}
+.item_noticia{
+padding:7px;
+color:#000;
+font-weight: normal;
+}
+.item_noticia .data{
+display:block;
+margin-bottom:10px;
+color: #0753A7;
+font-weight: bold;
+}
+.item_noticia .time{
+background:#efefef;
+padding:3px 7px;
+}
+.item_noticia a{text-decoration: none}
+.ploneCalendar .event {
+background-color: #DCDCDC;
+font-weight: bold;
+color: #FFFFFF;
+}
+.ploneCalendar .todayevent {
+background-color: #4682B4;
+border: 2px #4169E1 #ffa500;
+font-weight: bold;
+color: #FFFFFF;
+}
+.ploneCalendar .todaynoevent {
+border-collapse: collapse;
+border: 2px #4169E1 #ffa500;
+background-color: #2570cd;
+color: #FFFFFF;
+}
+.ploneCalendar .todayevent a {
+color: #FFFFFF;
+}
+#resultado {
+width: 560px;
+margin: 0 auto;
+background-color: #f1f1f1;
+padding-bottom: 25px;
+}
+#resultado span {
+display: block;
+}
+#resultado table {
+width: 100%;
+text-align: left;
+text-transform: uppercase;
+line-height: 18px;
+margin: 0 0 0 15px;
+}
+#resultado span:first-of-type {
+width: 280px;
+float: left;
+padding: 15px 0 0 15px;
+}
+#resultado span + span {
+clear: none !important;
+float: left !important;
+padding-top: 15px !important;
+}
+#resultado span:last-of-type {
+clear: both;
+padding: 10px 0 0 15px;
+margin-bottom: -15px;
+}
+#resultado + a {
+clear: both;
+}
+/* */
+/* */
+/* */
+}
+
+
+/* - barra.css - */
+@media screen {
+/* http://www.ipasealsaude.al.gov.br/portal_css/barra.css?original=1 */
+/* */
+#barra_institucional{
+height:36px;
+padding-right:5px;
+/* background:#fff url(http://www.ipasealsaude.al.gov.br/bandeira_barra.jpg) no-repeat; */
+}
+#barra_institucional h2{
+font-family:arial;
+font-size:18px;
+font-weight:bold;
+text-transform: uppercase;
+color:#013557;
+border:none;
+float:left;
+margin-top:10px;
+padding-left:161px;
+}
+#sites_institucionais{
+height:26px;
+padding-top:10px;
+}
+#sites_institucionais select{
+font-size:10px;
+border:1px solid #C1C3C9;
+/* background:url(http://www.ipasealsaude.al.gov.br/bg_select.jpg) #DFE0E3; */
+float:right;
+color: #343434;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+}
+.jquery-selectbox a{text-decoration: none;}
+.jquery-selectbox a:visited{color:#777}
+.jquery-selectbox {
+position: relative;
+height: 21px;
+border:1px solid #C1C3C9;
+width: 100px;
+z-index: 0;
+float: right;
+display: inline;
+margin: 0 8px 4px 0;
+font-size: 9px;
+font-family: Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+color: #343434;
+padding: 0;
+/* background:url(http://www.ipasealsaude.al.gov.br/bg_select.jpg) #DFE0E3; */
+top:-3px;
+}
+.jquery-selectbox.selecthover {
+border-color: #C1C3C9;
+background-color: #DFE0E3;
+z-index: 700;
+}
+.jquery-selectbox .jquery-selectbox-currentItem {
+padding: 4px 0px 0px 3px;
+white-space: nowrap;
+display: block;
+overflow: hidden;
+}
+.jquery-selectbox .jquery-selectbox-list {
+display: none;
+position: absolute;
+top: 19px;
+padding: 2px;
+left: -1px;
+background: #DFE0E3;
+width: 100px;
+height: 120px;
+overflow-x: hidden;
+overflow-y: auto;
+z-index: 1000;
+border: 1px solid #C1C3C9;
+}
+.jquery-selectbox .jquery-selectbox-moreButton {
+float: right;
+/* background: url("http://www.ipasealsaude.al.gov.br/select_more.gif") no-repeat; */ 
+width: 21px;
+height: 19px;
+cursor: pointer;
+margin:1px 1px 0 0;
+}
+.jquery-selectbox .jquery-selectbox-item.listelementhover {
+background: #ccc;
+color: #343434;
+}
+.jquery-selectbox .jquery-selectbox-item {
+display: block;
+cursor: default;
+padding:3px 2px;
+}
+/* **/
+form .error .jquery-selectbox {
+color: #d00;
+border-color: #d00;
+}
+/* */
+/* */
+/* */
+
+}
+
+
+/* - jquery.fancybox.css - */
+@media screen {
+/* http://www.ipasealsaude.al.gov.br/portal_css/jquery.fancybox.css?original=1 */
+/* */
+html, body {
+}
+div#fancy_overlay {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: #666;
+display: none;
+z-index: 30;
+}
+* html div#fancy_overlay {
+position: absolute;
+height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');
+}
+div#fancy_wrap {
+text-align: left;
+}
+div#fancy_loading {
+position: absolute;
+height: 40px;
+width: 40px;
+cursor: pointer;
+display: none;
+overflow: hidden;
+background: transparent;
+z-index: 100;
+}
+div#fancy_loading div {
+position: absolute;
+top: 0;
+left: 0;
+width: 40px;
+height: 480px;
+/* background: transparent url('http://www.ipasealsaude.al.gov.br/fancybox/fancy_progress.png') no-repeat; */
+}
+div#fancy_loading_overlay {
+position: absolute;
+background-color: #FFF;
+z-index: 30;
+}
+div#fancy_loading_icon {
+position: absolute;
+/* background: url('http://www.ipasealsaude.al.gov.br/fancybox/fancy_loading.gif') no-repeat; */
+z-index: 35;
+width: 16px;
+height: 16px;
+}
+div#fancy_outer {
+position: absolute;
+top: 0;
+left: 0;
+z-index: 90;
+padding: 18px 18px 33px 18px;
+margin: 0;
+overflow: hidden;
+background: transparent;
+display: none;
+}
+div#fancy_inner {
+position: relative;
+width:100%;
+height:100%;
+border: 1px solid #BBB;
+background: #FFF;
+}
+div#fancy_content {
+margin: 0;
+z-index: 100;
+position: absolute;
+}
+div#fancy_div {
+background: #000;
+color: #FFF;
+height: 100%;
+width: 100%;
+z-index: 100;
+}
+img#fancy_img {
+position: absolute;
+top: 0;
+left: 0;
+border:0;
+padding: 0;
+margin: 0;
+z-index: 100;
+width: 100%;
+height: 100%;
+}
+div#fancy_close {
+position: absolute;
+top: -12px;
+right: -15px;
+height: 30px;
+width: 30px;
+/* background: url('http://www.ipasealsaude.al.gov.br/fancybox/fancy_closebox.png') top left no-repeat; */
+cursor: pointer;
+z-index: 181;
+display: none;
+}
+#fancy_frame {
+position: relative;
+width: 100%;
+height: 100%;
+display: none;
+}
+#fancy_ajax {
+width: 100%;
+height: 100%;
+overflow: auto;
+}
+a#fancy_left, a#fancy_right {
+position: absolute;
+bottom: 0px;
+height: 100%;
+width: 35%;
+cursor: pointer;
+z-index: 111;
+display: none;
+background-image: url(data:image/gif;base64,AAAA);
+outline: none;
+}
+a#fancy_left {
+left: 0px;
+}
+a#fancy_right {
+right: 0px;
+}
+span.fancy_ico {
+position: absolute;
+top: 50%;
+margin-top: -15px;
+width: 30px;
+height: 30px;
+z-index: 112;
+cursor: pointer;
+display: block;
+}
+span#fancy_left_ico {
+left: -9999px;
+/* background: transparent url('http://www.ipasealsaude.al.gov.br/fancybox/fancy_left.png') no-repeat; */
+}
+span#fancy_right_ico {
+right: -9999px;
+/* background: transparent url('http://www.ipasealsaude.al.gov.br/fancybox/fancy_right.png') no-repeat; */
+}
+a#fancy_left:hover {
+visibility: visible;
+}
+a#fancy_right:hover {
+visibility: visible;
+}
+a#fancy_left:hover span {
+left: 20px;
+}
+a#fancy_right:hover span {
+right: 20px;
+}
+.fancy_bigIframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: transparent;
+}
+div#fancy_bg {
+position: absolute;
+top: 0; left: 0;
+width: 100%;
+height: 100%;
+z-index: 70;
+border: 0;
+padding: 0;
+margin: 0;
+}
+div.fancy_bg {
+position: absolute;
+display: block;
+z-index: 70;
+border: 0;
+padding: 0;
+margin: 0;
+}
+div.fancy_bg_n {
+top: -18px;
+width: 100%;
+height: 18px;
+/* background: transparent url('http://www.ipasealsaude.al.gov.br/fancybox/fancy_shadow_n.png') repeat-x; */
+}
+div.fancy_bg_ne {
+top: -18px;
+right: -13px;
+width: 13px;
+height: 18px;
+/* background: transparent url('http://www.ipasealsaude.al.gov.br/fancybox/fancy_shadow_ne.png') no-repeat; */
+}
+div.fancy_bg_e {
+right: -13px;
+height: 100%;
+width: 13px;
+/* background: transparent url('http://www.ipasealsaude.al.gov.br/fancybox/fancy_shadow_e.png') repeat-y; */
+}
+div.fancy_bg_se {
+bottom: -18px;
+right: -13px;
+width: 13px;
+height: 18px;
+/* background: transparent url('http://www.ipasealsaude.al.gov.br/fancybox/fancy_shadow_se.png') no-repeat; */ 
+}
+div.fancy_bg_s {
+bottom: -18px;
+width: 100%;
+height: 18px;
+/* background: transparent url('http://www.ipasealsaude.al.gov.br/fancybox/fancy_shadow_s.png') repeat-x; */ 
+}
+div.fancy_bg_sw {
+bottom: -18px;
+left: -13px;
+width: 13px;
+height: 18px;
+/* background: transparent url('http://www.ipasealsaude.al.gov.br/fancybox/fancy_shadow_sw.png') no-repeat; */
+}
+div.fancy_bg_w {
+left: -13px;
+height: 100%;
+width: 13px;
+/* background: transparent url('http://www.ipasealsaude.al.gov.br/fancybox/fancy_shadow_w.png') repeat-y; */ 
+}
+div.fancy_bg_nw {
+top: -18px;
+left: -13px;
+width: 13px;
+height: 18px;
+/* background: transparent url(http://www.ipasealsaude.al.gov.br/fancybox/'http://www.ipasealsaude.al.gov.br/fancybox/fancy_shadow_nw.png') no-repeat; */ 
+}
+div#fancy_title {
+position: absolute;
+bottom: -33px;
+left: 0;
+width: 100%;
+z-index: 100;
+display: none;
+}
+div#fancy_title div {
+color: #FFF;
+font: bold 12px Arial;
+padding-bottom: 3px;
+}
+div#fancy_title table {
+margin: 0 auto;
+}
+div#fancy_title table td {
+padding: 0;
+vertical-align: middle;
+}
+td#fancy_title_left {
+height: 32px;
+width: 15px;
+/* background: transparent url(http://www.ipasealsaude.al.gov.br/fancybox/fancy_title_left.png) repeat-x; */ 
+}
+td#fancy_title_main {
+height: 32px;
+/* background: transparent url(http://www.ipasealsaude.al.gov.br/fancybox/fancy_title_main.png) repeat-x; */ 
+}
+td#fancy_title_right {
+height: 32px;
+width: 15px;
+/* background: transparent url(http://www.ipasealsaude.al.gov.br/fancybox/fancy_title_right.png) repeat-x; */
+}
+/* */
+/* */
+/* */
+
+}
+
+
+/* - ploneCustom.css - */
+@media all {
+/* http://www.ipasealsaude.al.gov.br/portal_css/ploneCustom.css?original=1 */
+/* */
+/* */
+/* */
+/* */
+/* */
+
+}
